@@ -601,7 +601,7 @@ h1 { font-family: "Fredericka the Great",  monospace;
 		        transform: translateY(-50%);
 	text-align: center;
   background-color: rgba(240, 240, 255, 0.7);
-  color: black;
+  color: black; 
 }
 
 .large-foot__title {
@@ -709,7 +709,14 @@ xheader {
 
 article {
   text-align: left;
+  min-height: 16rem;
 }
+
+section article:nth-child(even) {
+  background-color: #444;
+  color: #eee;
+}
+
 
 /*
 
