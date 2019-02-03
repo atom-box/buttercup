@@ -711,6 +711,9 @@ article {
   text-align: left;
   min-height: 16rem;
 }
+article h2, article p, article ul {
+  max-width: 60%; 
+}
 
 section article:nth-child(even) {
   background-color: #444;
