@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 watch = require('gulp-watch');
 
 gulp.task('watch', function() {
-  watch('./src/html/index.html', function() {
+  watch('/Users/evan/Dropbox/code/p-buttercupPortfolioClean/src/html', function() {
     gulp.start('html');
   });
   watch('./src/styles/**/*.css', function() {
@@ -15,5 +15,5 @@ gulp.task('watch', function() {
 
 /**TO DO:  **gulp.task('cssInject', ['styles'], function(){
 	return gulp.src('ADD FROM 6:17');
-} )**************/
+} )*************/
 
