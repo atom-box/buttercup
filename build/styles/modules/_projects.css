@@ -1,0 +1,42 @@
+.projects {
+  font-size: 1.8rem;
+
+
+
+
+
+
+}
+
+    .projects__row {
+    	color: #f00;
+    }
+
+    .projects__tile {
+    	height: 12rem;
+    	width: 30rem;
+    	background-color: grey;
+    	border: 1rem dashed;
+    	margin: 2rem;
+
+	float: left;
+	width: 220px;
+	height: 220px;
+	background-color: #222;}
+
+    .projects__tile-image {
+display: block;
+float: left;
+padding: 1%;
+height: auto;
+width: 98%;
+}
+
+    .projects__tile:hover {
+  color: white;
+}
+
+
+
+
+

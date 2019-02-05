@@ -2,10 +2,6 @@
   "name": "buttercup",
   "version": "1.0.0",
   "description": "Static portfolio page.",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "start"
-  },
   "keywords": [
     "portfolio",
     "elm",
@@ -20,6 +16,7 @@
     "gulp": "^4.0.0",
     "gulp-postcss": "^8.0.0",
     "gulp-watch": "^5.0.1",
+    "minimatch": "^3.0.4",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.1.1"
   }
