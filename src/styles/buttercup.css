@@ -125,7 +125,7 @@ width: 98%;
 
 
 .navList__button {
-  float: left;
+  float: right;
 }
 
 .navList__button a {
@@ -134,6 +134,7 @@ width: 98%;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float:right;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -171,6 +172,9 @@ section article:nth-child(even) {
   color: yellow;
 }
 
+.large-hero, article {
+  padding-top: 4rem ;
+}
 /*
 
 NEXT!!
