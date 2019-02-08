@@ -173,7 +173,7 @@ section article:nth-child(even) {
 }
 
 .large-hero, article {
-  padding-top: 4rem ;
+ /** was formerly top padding but now using an H1 font there to pad it 
 }
 /*
 
