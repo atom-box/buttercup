@@ -172,9 +172,20 @@ section article:nth-child(even) {
   color: yellow;
 }
 
+img.address__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px 3px red;
+}
+
+
+
 .large-hero, article {
  /** was formerly top padding but now using an H1 font there to pad it 
 }
+
+
 /*
 
 NEXT!!
