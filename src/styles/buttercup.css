@@ -163,11 +163,13 @@ section article:nth-child(even) {
 .my-name  {
   font-family: "Fredericka the Great", monospace;
   font-size: 1.8rem;
-  xtext-shadow: 1px 1px yellow;
+  color: white;
+  font-weight: 500;
+  xtext-shadow: 1px 1px #bbb;
 }
 
 .logo {
-  font-family: courier, monospace;
+  xfont-family: courier, monospace;
   font-size: 0.7rem;  
   color: yellow;
 }
