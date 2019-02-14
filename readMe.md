@@ -5,15 +5,9 @@
 ES6 (Codecademy), Relational Databases with PostGreSQL (Udacity), JQuery (FreeCodeCamp); Responsive CSS (Johns Hopkins University Coursera), CS50 (Harvard University EdX), Gulp and BEM Principles of CSS (Udemy), C++ and Perl (Hunter College CUNY).
 
 ## To Do: 
-* force images on cards to 342 × 187! 
-* shave away css style
-Get pics, get some runnable:
-* drum machine
-* chinese restaurant
-* blog
-* swiss tournament python postgresql
-* gold medal metrics sqlite
-* memorials to friends
+* projects get 3, not more, runnable:
+https://github.com/atom-box/mars/tree/master/vagrant/tournament
+this is the swiss
 
 deploy!
 fix bottom address bar
@@ -26,6 +20,7 @@ rewrite dad's, deploy to Wix
 
 Beyond Compare customer Joseph
 My bulbs project
+* shave away css style
 
 
 
