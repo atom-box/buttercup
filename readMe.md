@@ -9,6 +9,7 @@ ES6 (Codecademy), Relational Databases with PostGreSQL (Udacity), JQuery (FreeCo
 https://github.com/atom-box/mars/tree/master/vagrant/tournament
 this is the swiss
 
+
 deploy!
 fix bottom address bar
 change elm to search best Guardian books
@@ -20,6 +21,7 @@ rewrite dad's, deploy to Wix
 
 Beyond Compare customer Joseph
 My bulbs project
+* change to a high [contrast link](https://www.makeuseof.com/tag/typography-terms-explained/) EVANgenest using fontweights + scrunch the kerning
 * shave away css style
 
 
