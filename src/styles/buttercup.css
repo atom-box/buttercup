@@ -152,7 +152,7 @@ article {
   min-height: 16rem;
 }
 article h2, article p, article ul {
-  max-width: 60%; 
+  max-width: 90%; 
 }
 
 section article:nth-child(even) {
@@ -181,6 +181,9 @@ img.address__image {
     border: 3px 3px red;
 }
 
+.container {
+  margin: 3rem;
+}
 
 
 .large-hero, article {
