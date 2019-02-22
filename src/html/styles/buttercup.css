@@ -86,6 +86,8 @@
     }
 
 .row-card {
+  height: 27rem;
+  margin: 1.3rem;
 }
 
 .projects__tile-image {
