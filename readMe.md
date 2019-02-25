@@ -1,6 +1,8 @@
 # Evan Genest Web Developer Portfolio
 
 ## Immediate Quick To Do: 
+* Go read your ironchef todos Lunch today
+* implement Evan Hahn workflow
 * Portfolio needs full-bleed on at least the hero.  
 * Flood needs 3-cols changed to stacked-three: investigate Cards-bootstrap.  bottom of each should conclude with "more" or "continue on to photos and stories"
 * Move half of each columns content to those sites.
@@ -9,7 +11,7 @@
 * Cut H1 and p at top by half on font size, collapse interline spacing, lighten the little words
 * make responsive via GRID css!!
 * change to a high [contrast link](https://www.makeuseof.com/tag/typography-terms-explained/) EVANgenest using fontweights + scrunch the kerning
-* implement Evan Hahn workflow
+
 * implement gulp for css
 
 ## Longer Term to do:
