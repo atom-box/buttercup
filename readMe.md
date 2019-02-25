@@ -1,31 +1,22 @@
-# Evan Genest
-## Web Developer
+# Evan Genest Web Developer Portfolio
 
-## Education:
-ES6 (Codecademy), Relational Databases with PostGreSQL (Udacity), JQuery (FreeCodeCamp); Responsive CSS (Johns Hopkins University Coursera), CS50 (Harvard University EdX), Gulp and BEM Principles of CSS (Udemy), C++ and Perl (Hunter College CUNY).
-
-## To Do: 
-* projects get 3, not more, runnable:
-https://github.com/atom-box/mars/tree/master/vagrant/tournament
-this is the swiss
-
-
-deploy!
-fix bottom address bar
-change elm to search best Guardian books
-make drum machine more my own
-rewrite testing in Mocha for Boss.  
-rewrite front end for boss
-make a front end for swiss - a Cloud9 repl?		
-rewrite dad's, deploy to Wix
-
-Beyond Compare customer Joseph
-My bulbs project
+## Immediate Quick To Do: 
+* If you can't bear to part with this portfolio design after all this, deploy it as a project.  Then restyle the head as pure vanilla something.
+* Cut H1 and p at top by half on font size, collapse interline spacing, lighten the little words
+* make responsive via GRID css!!
 * change to a high [contrast link](https://www.makeuseof.com/tag/typography-terms-explained/) EVANgenest using fontweights + scrunch the kerning
+* implement Evan Hahn workflow
+* implement gulp for css
+
+## Longer Term to do:
+*  change elm to search best Guardian books
+* make drum machine more my own
+* rewrite testing in Mocha for Boss.  
+* rewrite front end for boss
+* make a front end for swiss - a Cloud9 repl?		
+* rewrite dad's, deploy to Wix
+* My bulbs project
 * shave away css style
-
-
-
 * Drum Machine / Drum machine / Serve sounds to a browser, in plain JS
 * David's Chinese / Real menu items / Asynch JS to populate menus.  CSS floats!
 * Beyond Compare / Tech blog / Beginners docs I wrote 
@@ -35,3 +26,7 @@ My bulbs project
 * Candy Corn Rights  / Searcher / written in Elm, then compiled to JS
 * Boss Machine / To do list / Express.js backend & Testing in Mocha
 * Have the slider spit out fontawesome in random colors from an array of 12.
+* This is [The Swiss Tourney](https://github.com/atom-box/mars/tree/master/vagrant/tournament)
+
+## Big 500 feet To Do's
+* Look closely: Boss-Machine is kind of cool.  Build your own, like the Alice-server.  Merge it with Handlebars Commenter by Hahn.
