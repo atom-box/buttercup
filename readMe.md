@@ -1,7 +1,8 @@
 # Evan Genest Web Developer Portfolio
 
 ## Immediate Quick To Do: 
-* Flood needs 3-cols changed to stacked-three.  bottom of each should conclude with "more" or "continue on to photos and stories"
+* Portfolio needs full-bleed on at least the hero.  
+* Flood needs 3-cols changed to stacked-three: investigate Cards-bootstrap.  bottom of each should conclude with "more" or "continue on to photos and stories"
 * Move half of each columns content to those sites.
 * The color contrast between the Shakespeare header and background needs to become negligible.
 * If you can't bear to part with this portfolio design after all this, deploy it as a project.  Then restyle the head as pure vanilla something.
