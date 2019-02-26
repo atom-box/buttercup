@@ -1,6 +1,8 @@
 # Evan Genest Web Developer Portfolio
 
 ## Immediate Quick To Do: 
+* Come back to the bullseye repo.  Strip it and rebuild it like a Model A for American Graffiti.
+* Finish the alice coding  bat mode recursion by implementing objects and a wrapper
 * Go read your ironchef todos Lunch today
 * implement Evan Hahn workflow
 * Portfolio needs full-bleed on at least the hero.  
