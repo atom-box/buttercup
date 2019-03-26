@@ -2,6 +2,9 @@
 
 
 ## Longer Term to do:
+* Review node/sql
+* Next action to getting the SwissBracket live is step4, nginx as 
+proxyserver for the pm2 demonized node server
 * BracketCat! / Today's results -> Tomorrow's Bracket / Python backend & 
 * This is [The Swiss Tourney](https://github.com/atom-box/mars/tree/master/vagrant/tournament)
 * Node test this weekend
