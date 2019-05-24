@@ -9,11 +9,6 @@
     <meta name="robots" content="all">
     <meta name="robots" content="follow">
     <meta name="author" content="Evan Genest">
-
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="http://littlefurnace.com/favicon.ico?v=2" />
-
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -27,11 +22,12 @@
     <header>
         <nav>
             <ul class="navList">
+                <li class="navList__button"><a href="index.html#about-me">About Me</a></li>
+                <li class="navList__button"><a href="https://beyondcompare.gitbook.io">Blog</a></li>
                 <li class="navList__logo" style="float:left"><a class="active" href="index.html"><span class="my-name">Evan Genest  </span><span class="logo"></span></a></li>                
                 <li class="navList__button"><a href="index.html#projects">Projects</a></li>
                 <li class="navList__button"><a href="index.html#experience">Experience</a></li>
                 <li class="navList__button"><a href="index.html#education">Education</a></li>
-                <li class="navList__button"><a href="index.html#about-me">About Me</a></li>
 
             </ul>
         </nav>
@@ -54,7 +50,7 @@
         <img class="large-foot__image" src='images/chelly6.png' alt='Evan looking across snow covered canyon' width='100%'>
         <div class="large-foot__text-content">
             <h1>Preferred Technologies</h2>
-            <p>Linux, Javascript, Nginx, Express/Node</p>
+            <p>Linux, Javascript, Nginx, Node.js, PostGreSQL</p>
         </div>
     </footer>
 
@@ -63,15 +59,14 @@
         <article id="keyskills">
             <h1> <span class="fas fa-wrench"4></span> </h1>
 
-            <h2>Key Skills</h2>
-
+            <h2>Skills:</h2>
             <ul>
-                <li>Teaching: I was a STEM teacher in public schools.  I pioneered the first modern computer science class to East High School in Madison, Wisconsin; for projects I put high school students into sprint teams for Kanban with a scrum master and daily standup meetings.</li>
-                <li>Web Development: I've taught myself front and back end development.  The code is at Github.  I'm spending March, 2019 moving the projects to deploy in the Projects section below.</li>
-                <li>Facilitation: I've been hosting conversations for LVN.org on their Hearth-parser (a collaboration of MIT Media Labs and Kathy Cramer).  I've been leading small groups each week at The Nehemiah Center's: <i>Our History 2019</i> (a diversity workshop).  </li>
-                <li>Public Speaking: presented talks at Milwaukee Code Camp and Madpy Meetup, both on the Elm Language.</li>
-
+                <li><strong>Web Development:</strong> I've taught myself front and back end development.  The code is at Github.  I'm spending March, 2019 moving the projects to deploy in the Projects section below.</li>
+                <li><strong>Group Leader:</strong> My hosting for LVN.org made it into the <a href="https://madison.com/ct/news/local/govt-and-politics/local-voices-network-madison-residents-discuss-climate-change-concerns/article_a8f76de0-0920-5650-aabf-f351bedf938c.html" > Cap Times </a> using Cortico startup's Hearth-parser (a collaboration of MIT Media Labs and Kathy Cramer).  I lead small groups each week at The Nehemiah Center's: <i> Our History 2019 </i> (a diversity workshop).  </li>
+                <li><strong>Functional Programming:</strong>  presented talks at Milwaukee Code Camp (conference) and Madpy (Meetup), both on the Elm Language.</li>
+                <li><strong>Agile:</strong> As a full-time computer science teacher Madison East High School I trained high school students as sprint teams for Kanban with a scrum master and daily standup meetings.  We used  C as a first programming language </li>
             </ul>
+
 
         </article>
 
@@ -86,7 +81,7 @@
                 <div class="col-sm-4">
                     <!-- CARD 0 -->
                     <div class="row-card card" style="width: 18rem;">
-                        <img class="card-img-top img-responsive projects__tile-image" src="images/candyCorn.png" alt="Card image cap" width="342" height="187">
+                        <img class="card-img-top img-responsive projects__tile-image" src="images/constitution-thumb.png" alt="Card image cap" width="342" height="187">
                         <div class="card-body">
                             <h5 class="card-title">Elm Language List Searcher</h5>
                         </div>
@@ -168,18 +163,14 @@
             <h1> <span class="fas fa-city"></span> </h1>
             <h2 >Experience</h2>
 
-            <p>
-                I work at Scooter Software. I help customers troubleshoot Beyond Compare for their Linux, Mac, and Windows platforms.  I recreate the customer's environment on my own virtual machine and then try to simulate their bug behavior.  Because our software is a file utility I work a lot with protocols for accessing files.<br></p>
-            <p>
-                
-            </p>
+            <p>I work at Scooter Software. I am part of the customer support team. We largely help customers understand details of their operating system's file handling.  Secondarily I get to watch the Dev Team solving the &quotexciting&quot part of our business: continually rewriting our long-ago optimized core functionality (optimized 1998 - 2008) to interface smoothly with ongoing changes in Linux(Ubuntu, Debian, & RedHat), Mac, Windows, Amazon S3, OneDrive, and Dropbox.</p>
 
         </article>
         <article id="education">
             <h1><span class="fas fa-graduation-cap"></span></h1>
             <h2>Education</h2>
             <ul>
-                <li>ES6 (Codecademy), Relational Databases with PostGreSQL (Udacity), JQuery (FreeCodeCamp); Responsive CSS (Johns Hopkins University Coursera), CS50 (Harvard University EdX), Gulp and BEM Principles of CSS (Udemy)</li>
+                <li>Node.js, Express, SQLite, ES6 with an emphasis on functional JS (Codecademy), Relational Databases with PostGreSQL (Udacity), JQuery (FreeCodeCamp); Responsive CSS (Johns Hopkins University Coursera), CS50 (Harvard University EdX), Gulp and BEM Principles of CSS (Udemy)</li>
 
                 <li>Master of Science Organic Chemistry, The Ohio State University</li>
 
@@ -201,6 +192,16 @@
                 <p>This site is hosted at Digital Ocean.  The server is Nginx.</p>
         </article>
     </section>
+		<footer>
+			<div class="starboard">
+				<i class="fab fa-github"></i>
+				<a href="https://github.com/atom-box/">Github</a>
+				<i class="fab fa-twitter" ></i>
+				<a href="https://twitter.com/mistergenest">Twitter</a>
+				<i class="fab fa-linkedin" ></i><a href="https://www.linkedin.com/in/evan-genest-b6648380">LinkedIn </a>
+				<p><span>Unrelentless since 10/12/2018.  </span></div></p>
+			</div>
+		</footer>
 
 </div>
 <link type="text/css" href="styles/bootswatch-superhero.mini.css" rel="stylesheet">
