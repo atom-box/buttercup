@@ -1,16 +1,16 @@
-
-.btn {
-	text-decoration: none;
-	padding: 0.75rem 2.2rem;
-	margin: 2rem;
-	background-color: white;
-	color: black;
-	font-size: 1.3rem;
-	border-radius: 0.2rem;
-	
-
+.elShadow {
+  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.btn {
+	border-radius: 0.4rem;
+}
+.card {
+  width: 340px;
+}
+.card-title {
+  margin: 0;
+}
 .btn--hero{
     float: right;
 		background-color: #226;
@@ -20,7 +20,7 @@
 
 .large-foot {
 	position: relative;
-  width:100%;
+  width:90%;
   background-color: pink;
 
 }
@@ -73,12 +73,6 @@
 
 .projects {
   font-size: 1.8rem;
-
-
-
-
-
-
 }
 
 .projects__row {
@@ -110,7 +104,6 @@ margin: 0.1rem;
   background-color: #333;
   z-index: 13;
 }
-
 
 
 
