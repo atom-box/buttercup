@@ -139,8 +139,13 @@ article h2, article p, article ul {
 }
 
 section article:nth-child(even) {
-  background-color: #444;
-  color: #eee;
+  border-style: solid ;
+  border-color: ;
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  box-shadow: 1px 1px #bbb;
 }
 
 .my-name  {
