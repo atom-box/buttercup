@@ -43,6 +43,16 @@
   color: black; 
 }
 
+.large-foot__glyphs {
+  font-size: 5rem;
+  color: #888;
+}
+
+.large-foot__glyphs i {
+  margin-left: 2.5rem;
+}
+
+
 .large-foot__title {
 	font-weight: 300;
 	color: #bb0; 
@@ -148,7 +158,7 @@ section article:nth-child(even) {
   box-shadow: 1px 1px #bbb;
 }
 
-.my-name  {
+.marque  {
   font-family: "Fredericka the Great", monospace;
   font-size: 1.8rem;
   color: white;
