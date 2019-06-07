@@ -32,7 +32,22 @@
   	xfilter: blur(5px);
   }
 
-.large-foot__text-content	{
+.large-foot__band1  {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 30%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  text-align: center;
+  font-size: 5rem;
+  /*background-color: blue;*/
+  color: #fff; 
+}
+
+
+
+.large-foot__band2	{
 	position: absolute;
   width: 100%;
 	bottom: 30%;
@@ -49,9 +64,12 @@
 }
 
 .large-foot__glyphs i {
-  margin-left: 2.5rem;
+  margin-left: 4.5rem;
 }
-
+.large-foot__follow-on {
+  font-size: 1.3rem;
+  color: red;
+}
 
 .large-foot__title {
 	font-weight: 300;
