@@ -1,8 +1,5 @@
 # Evan Genest Web Developer Portfolio
-* [This view of my portfolio](https://github.com/atom-box/buttercup/blob/master/docs/index.html) is not yet polished for release.  It is my in-development version. 
-* 5/25/2019: Deployment is currently avoiding any Gulp build.  I'm just doing a straight sync from SRC -> 
-BUILD using Beyond Compare.  Then, SFTP into non-root, and finally MV as root@digital ocean, from HOME to 
-/var/www/littlefurnace.com
+* [My portfolio](https://atom-box.github.io/buttercup).  It is my in-development version. 
 
 ## To do:
 * The to do list is now in Trello.
