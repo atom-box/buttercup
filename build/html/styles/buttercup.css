@@ -71,18 +71,14 @@
 	margin-left: 55%;
 }
 
-.projects {
+#projects {
   font-size: 1.8rem;
+  min-width: 64rem;
 }
 
 .projects__row {
     	color: #f00;
     }
-
-.row-card {
-  height: 27rem;
-  margin: 1.3rem;
-}
 
 .projects__tile-image {
 width: 98%;
@@ -120,6 +116,7 @@ margin: 0.1rem;
   float:right;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
@@ -133,6 +130,8 @@ xheader {
 article {
   text-align: left;
   min-height: 16rem;
+  padding: 0.8rem;
+  /* FLEX */
 }
 article h2, article p, article ul {
   max-width: 90%; 
@@ -141,6 +140,24 @@ article h2, article p, article ul {
 section article:nth-child(even) {
   background-color: #444;
   color: #eee;
+}
+
+.xrow {
+  padding: 0.4rem;
+}
+
+
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 27rem;
+  margin: 2rem;
 }
 
 .my-name  {
