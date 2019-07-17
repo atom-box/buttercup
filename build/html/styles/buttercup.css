@@ -2,8 +2,12 @@
   box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.for-more {
+.text-to-click {
   color: orange;
+}
+
+.text-to-click:hover {
+  font-style: italic;
 }
 
 .btn {
