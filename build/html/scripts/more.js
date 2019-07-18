@@ -8,19 +8,21 @@ console.log(`portfolio javascript!`);
 // 	elShort.innerHTML = "Hey, I'm Zorak."
 // }
 
-function tersifyVerbiage (s){
-	console.log(`This is ${this}`);
-}
+// function tersifyVerbiage (s){
+// 	console.log(`This is ${this}`);
+// }
 
 var el001 = document.getElementById('text001');
 
 el001.addEventListener('click', function(){
-	console.log(`${this.attic}`);
-	var temp = this.getAttribute("attic");
-	this.attic = this.innerHTML;
-	this.innerHTML = temp;
+	console.log(`What is in the attic before: ${this.getAttribute('attic')}`)
+	var temp = el001.innerHTML;
+	el001.innerHTML = el001.getAttribute("attic");
+	el001.setAttribute('attic', temp);
+	console.log(`What is in the attic after: ${this.getAttribute('attic')}`)
 
-})
+
+}); // todo MAKE THIS 'THIS'
 
 
 
