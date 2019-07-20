@@ -92,10 +92,10 @@
                         }
 /*    *    *   *   *   *   *   */
 
-.elShadow {
+/*.elShadow {
   box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
+}*/
+/*
 .text-to-click {
   color: orange;
 }
@@ -112,29 +112,36 @@
 }
 .card-title {
   margin: 0;
-}
-.btn--hero{
+}*/
+
+
+
+
+/*.btn--hero{
     float: right;
 		background-color: #226;
 		color: red;
 		border-radius: 1.5rem;
 	}
 
-.large-foot {
+*/
+
+
+.canyon {
 	position: relative;
   width:90%;
   background-color: pink;
 
 }
 
-.large-foot__image {
+.canyon__image {
   	width: 100%;
   	padding: 0px;
   	margin: 0px;
   	xfilter: blur(5px);
   }
 
-.large-foot__text-content	{
+.canyon__text-content	{
 	position: absolute;
   width: 100%;
 	bottom: 30%;
@@ -145,33 +152,7 @@
   color: black; 
 }
 
-.large-foot__title {
-	font-weight: 300;
-	color: #bb0; 
-	text-shadow: 6px 1px black;
-	font-size: 4.8rem;
-	margin: 0; /* remove space */
-}
 
-.large-foot__subtitle {
-	font-weight: 300;
-	font-size: 2.9rem;
-	color: rgb(160, 162, 133); 
-	font-size: 1.5rem;
-	margin: 0; /* remove space */
-	text-shadow: 2px 0px white;
-	margin-left: 40%;
-
-}
-
-.large-foot__description {
-	margin: 0; /* remove space */
-	font-size: 1.875rem;
-	font-weight: 100;
-	color: #ddd;
-	text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-	margin-left: 55%;
-}
 
 #projects {
   font-size: 1.8rem;
@@ -293,13 +274,5 @@ img.address__image {
 }
 
 
-/*
 
-NEXT!!
-
-
-JohnCage from library
-
-
-*/
 
