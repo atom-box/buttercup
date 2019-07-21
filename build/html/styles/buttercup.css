@@ -1,278 +1,189 @@
-                        /* CSS by https://www.littlesnippets.net/   */
-                
-                        .cardholder {
-                          border: 1.1rem solid transparent;
-                          display: flex;
-                          flex-wrap: wrap;
-                          flex-direction: row;
-                        }
-                
-                        .sni-AA {
-                          background-color: #000000;
-                          box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-                          color: #ffffff;
-                          font-family: 'Open Sans', Arial, sans-serif;
-                          font-size: 16px;
-                          line-height: 1.6em;
-                          margin: 10px;
-                          max-width: 310px;
-                          min-width: 250px;
-                          overflow: hidden;
-                          position: relative;
-                          text-align: left;
-                          width: 100%;
-                        }
-                        
-                        .sni-AA * {
-                          -webkit-box-sizing: border-box;
-                          box-sizing: border-box;
-                          -webkit-transition: all 0.25s ease;
-                          transition: all 0.25s ease;
-                        }
-                        
-                        .sni-AA img {
-                          max-width: 100%;
-                          vertical-align: top;
-                          position: relative;
-                          opacity: 0.75;
-                        }
-                        
-                        .sni-AA figcaption {
-                          padding: 25px 20px 25px;
-                          position: absolute;
-                          bottom: 0;
-                          z-index: 1;
-                        }
-                        
-                
-                        .sni-AA h3,
-                        .sni-AA p {
-                          margin: 0;
-                          padding: 0;
-                        }
-                        
-                        .sni-AA h3 {
-                          font-weight: 800;
-                          letter-spacing: -0.4px;
-                        }
-                        
-                        .sni-AA .hover {
-                          position: absolute;
-                          top: 0;
-                          bottom: 0;
-                          left: 0;
-                          right: 0;
-                          align-items: center;
-                          background-color: rgba(236, 188, 46, 0.75);
-                          display: flex;
-                          font-size: 65px;
-                          justify-content: center;
-                          opacity: 0;
-                        }
-                        
-                        .sni-AA a {
-                          left: 0;
-                          right: 0;
-                          top: 0;
-                          bottom: 0;
-                          position: absolute;
-                          z-index: 1;
-                        }
-                        
-                        .sni-AA:hover .hover,
-                        .sni-AA.hover .hover {
-                          -webkit-transition-delay: 0.1s;
-                          transition-delay: 0.1s;
-                          opacity: 1;
-                        }
-                        
-                        .sni-AA:hover figcaption,
-                        .sni-AA.hover figcaption {
-                          opacity: 0;
-                        }
-/*    *    *   *   *   *   *   */
-
-/*.elShadow {
-  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
 /*
-.text-to-click {
-  color: orange;
+-----------PROJECTS
+*/
+/* CSS by https://www.littlesnippets.net/ */
+ .cardholder {
+     border: 1.1rem solid transparent;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
 }
-
-.text-to-click:hover {
-  font-style: italic;
+ .sni-AA {
+     background-color: #000000;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+     color: #ffffff;
+     font-family: 'Open Sans', Arial, sans-serif;
+     font-size: 16px;
+     line-height: 1.6em;
+     margin: 10px;
+     max-width: 310px;
+     min-width: 250px;
+     overflow: hidden;
+     position: relative;
+     text-align: left;
+     width: 100%;
 }
-
-.btn {
-	border-radius: 0.4rem;
+ .sni-AA * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     -webkit-transition: all 0.25s ease;
+     transition: all 0.25s ease;
 }
-.card {
-  width: 340px;
+ .sni-AA img {
+     max-width: 100%;
+     vertical-align: top;
+     position: relative;
+     opacity: 0.75;
 }
-.card-title {
-  margin: 0;
-}*/
-
-
-
-
+ .sni-AA figcaption {
+     padding: 25px 20px 25px;
+     position: absolute;
+     bottom: 0;
+     z-index: 1;
+}
+ .sni-AA h3, .sni-AA p {
+     margin: 0;
+     padding: 0;
+}
+ .sni-AA h3 {
+     font-weight: 800;
+     letter-spacing: -0.4px;
+}
+ .sni-AA .hover {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     align-items: center;
+     background-color: rgba(236, 188, 46, 0.75);
+     display: flex;
+     font-size: 65px;
+     justify-content: center;
+     opacity: 0;
+}
+ .sni-AA a {
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     position: absolute;
+     z-index: 1;
+}
+ .sni-AA:hover .hover, .sni-AA.hover .hover {
+     -webkit-transition-delay: 0.1s;
+     transition-delay: 0.1s;
+     opacity: 1;
+}
+ .sni-AA:hover figcaption, .sni-AA.hover figcaption {
+     opacity: 0;
+}
+/* * * * * * * */
+/*.elShadow {
+     box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ */
+/* .text-to-click {
+     color: orange;
+}
+ .text-to-click:hover {
+     font-style: italic;
+}
+ .btn {
+     border-radius: 0.4rem;
+}
+ .card {
+     width: 340px;
+}
+ .card-title {
+     margin: 0;
+}
+ */
 /*.btn--hero{
-    float: right;
-		background-color: #226;
-		color: red;
-		border-radius: 1.5rem;
-	}
+     float: right;
+     background-color: #226;
+     color: red;
+     border-radius: 1.5rem;
+}
+ */
 
+
+
+ /*
+-----------CANYON
 */
 
-
-.canyon {
-	position: relative;
-  width:90%;
-  background-color: pink;
-
+ .canyon {
+     position: relative;
+     width:90%;
+     background-color: pink;
 }
-
-.canyon__image {
-  	width: 100%;
-  	padding: 0px;
-  	margin: 0px;
-  	xfilter: blur(5px);
-  }
-
-.canyon__text-content	{
-	position: absolute;
-  width: 100%;
-	bottom: 30%;
-		-webkit-transform: translateY(-50%);
-		        transform: translateY(-50%);
-	text-align: center;
-  background-color: rgba(240, 240, 255, 0.7);
-  color: black; 
+ .canyon__image {
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+     xfilter: blur(5px);
+}
+ .canyon__text-content {
+     position: absolute;
+     width: 100%;
+     bottom: 30%;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+     text-align: center;
+     background-color: rgba(240, 240, 255, 0.7);
+     color: black;
 }
 
 
-
-#projects {
-  font-size: 1.8rem;
-  min-width: 64rem;
+ article {
+     text-align: left;
+     min-height: 16rem;
+     padding: 0.8rem;
+    /* FLEX */
 }
-
-.projects__row {
-    	color: #f00;
-    }
-
-.projects__tile-image {
-width: 98%;
-margin: 0.1rem;
+ article h2, article p, article ul {
+     max-width: 90%;
 }
-
-.projects__tile:hover {
-  color: white;
+ section article:nth-child(even) {
+     background-color: #444;
+     color: #eee;
 }
-
-.navList {  
-  position: fixed;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  z-index: 13;
+ .xrow {
+     padding: 0.4rem;
 }
-
-
-
-.navList__button {
-  float: right;
+ .projects-container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
 }
-
-.navList__button a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float:right;
+ .card {
+     height: 27rem;
+     margin: 2rem;
 }
-
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+ .my-name {
+     font-family: "Fredericka the Great", monospace;
+     font-size: 1.8rem;
+     color: white;
+     font-weight: 500;
+     xtext-shadow: 1px 1px #bbb;
 }
-
-xheader {
-  float: left;
-  bottom: 0;
+ .logo {
+     xfont-family: courier, monospace;
+     font-size: 0.7rem;
+     color: yellow;
 }
-
-article {
-  text-align: left;
-  min-height: 16rem;
-  padding: 0.8rem;
-  /* FLEX */
+ img.address__image {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border: 3px 3px red;
 }
-article h2, article p, article ul {
-  max-width: 90%; 
+ .container {
+     margin: 3rem;
 }
-
-section article:nth-child(even) {
-  background-color: #444;
-  color: #eee;
+ .large-hero, article {
+    /** was formerly top padding but now using an H1 font there to pad it 
 }
-
-.xrow {
-  padding: 0.4rem;
-}
-
-
-
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  height: 27rem;
-  margin: 2rem;
-}
-
-.my-name  {
-  font-family: "Fredericka the Great", monospace;
-  font-size: 1.8rem;
-  color: white;
-  font-weight: 500;
-  xtext-shadow: 1px 1px #bbb;
-}
-
-.logo {
-  xfont-family: courier, monospace;
-  font-size: 0.7rem;  
-  color: yellow;
-}
-
-img.address__image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px 3px red;
-}
-
-.container {
-  margin: 3rem;
-}
-
-
-.large-hero, article {
- /** was formerly top padding but now using an H1 font there to pad it 
-}
-
-
-
-
+ 
