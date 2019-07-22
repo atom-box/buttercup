@@ -14,7 +14,7 @@
      max-width: 90%;
 }
  section article:nth-child(even) {
-     background-color: #yellow;
+     background-color: yellow;
      color: #eee;
 }
 
@@ -144,7 +144,6 @@
      width: 100%;
      padding: 0px;
      margin: 0px;
-     xfilter: blur(5px);
 }
  .canyon__text-content {
      position: absolute;
@@ -186,7 +185,7 @@
      display: block;
      margin-left: auto;
      margin-right: auto;
-     border: 3px 3px red;
+     border: 3px solid red;
 }
 
 
