@@ -2,7 +2,9 @@
 -----------PROJECTS
 */
 /* CSS by https://www.littlesnippets.net/ */
- .cardholder {
+
+
+ .cardholder { /*confirmed*/
      border: 1.1rem solid transparent;
      display: flex;
      flex-wrap: wrap;
@@ -119,13 +121,14 @@
      color: black;
 }
 
-
+/*
  article {
      text-align: left;
      min-height: 16rem;
      padding: 0.8rem;
-    /* FLEX */
 }
+*/
+
  article h2, article p, article ul {
      max-width: 90%;
 }
@@ -136,38 +139,36 @@
  .xrow {
      padding: 0.4rem;
 }
- .projects-container {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: center;
-}
  .card {
      height: 27rem;
      margin: 2rem;
 }
+
  .my-name {
      font-family: "Fredericka the Great", monospace;
      font-size: 1.8rem;
      color: white;
-     font-weight: 500;
-     xtext-shadow: 1px 1px #bbb;
 }
- .logo {
-     xfont-family: courier, monospace;
-     font-size: 0.7rem;
-     color: yellow;
+
+.my-name__first {
+     font-weight: 900;
+
 }
+
+.my-name__last {
+     font-weight: 100;
+}
+
+
+
  img.address__image {
      display: block;
      margin-left: auto;
      margin-right: auto;
      border: 3px 3px red;
 }
- .container {
+
+
+/* .container {
      margin: 3rem;
-}
- .large-hero, article {
-    /** was formerly top padding but now using an H1 font there to pad it 
-}
- 
+}*/
