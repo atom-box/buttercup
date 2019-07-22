@@ -1,4 +1,26 @@
 /*
+-----------GLOBALS
+*/
+
+/*
+ article {
+     text-align: left;
+     min-height: 16rem;
+     padding: 0.8rem;
+}
+*/
+
+ article h2, article p, article ul {
+     max-width: 90%;
+}
+ section article:nth-child(even) {
+     background-color: #yellow;
+     color: #eee;
+}
+
+
+
+/*
 -----------PROJECTS
 */
 /* CSS by https://www.littlesnippets.net/ */
@@ -82,17 +104,31 @@
 }
 
 
+
+/*
+--------------custom COLORS for navbar, and...
+*/
+
+:root {
+  --accent-1: rgb(207, 77, 24); 
+}
+
+/** DARK BACKGROUNDS**/
+.bg-custom-1 {
+  background-color: rgb(15, 48, 74);
+}
+
+
 /*
 -----------the MORE toggle
 */
 
  .text-to-click {
-     color: orange;
+     color: var(--accent-1);
 }
  .text-to-click:hover {
      font-style: italic;
 }
-
 
 
  /*
@@ -121,21 +157,6 @@
      color: black;
 }
 
-/*
- article {
-     text-align: left;
-     min-height: 16rem;
-     padding: 0.8rem;
-}
-*/
-
- article h2, article p, article ul {
-     max-width: 90%;
-}
- section article:nth-child(even) {
-     background-color: #444;
-     color: #eee;
-}
  .xrow {
      padding: 0.4rem;
 }
@@ -145,9 +166,9 @@
 }
 
  .my-name {
-     font-family: "Fredericka the Great", monospace;
+     font-family: monospace;
      font-size: 1.8rem;
-     color: white;
+     color: var(--accent-1);
 }
 
 .my-name__first {
@@ -169,6 +190,3 @@
 }
 
 
-/* .container {
-     margin: 3rem;
-}*/
