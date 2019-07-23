@@ -4,8 +4,8 @@
 
 :root {
   --accent-1: rgb(207, 77, 24); 
-  --bc-1: rgb(178,    96,   67   ) ;
-  --bc-2: rgb(239,    180,  128    ) ;
+  --bc-1: rgb(118,    36,   7   ) ;
+  --bc-2: rgb(189,    120,  68    ) ;
   --ac-1: rgb(53,     39,   188  ) ;
   --ac-2: rgb(18,     0,    85   )
 
@@ -36,7 +36,7 @@
 }
  section article:nth-child(odd) {
      background-color: var(--bc-1);
-     color: white;
+     color: #bbb;
      margin: 0;
 
 }
