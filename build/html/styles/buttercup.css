@@ -119,12 +119,12 @@
 }
 
 /*
---------------e x p e r i m e n t a l  TESTS
+--------------let's be     R E S P O N S I V E !
 */
-.test__filla {
-     background-color: pink;
-     border: 0.5rem solid blue;
-     margin: 0
+
+.mobile-only__div {
+     border: 0.2rem solid black;
+     margin: 0.4rem;
 }
 
 
