@@ -42,7 +42,7 @@
 }
  section article:nth-child(even) {
      background-color: var(--bc-2);
-     color: #111;
+     color: #ddd;
      margin: 0;
 
 }
