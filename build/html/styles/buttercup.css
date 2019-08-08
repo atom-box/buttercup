@@ -201,13 +201,15 @@ article {
 }
 
  .my-name {
-     font-family: monospace;
-     /*font-size: 1.8rem;*/
-     color: var(--accent-1);
+     font-family: "Gill Sans", sans-serif;
+}
+
+nav#test.my-name {
+          /*font-family: "Gill Sans", sans-serif;   */
 }
 
 .my-name__first {
-     font-weight: 900;
+     font-weight: 700;
 
 }
 
