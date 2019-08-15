@@ -23,13 +23,31 @@
 -----------GLOBALS, resets
 */
 
-/*
- article {
-     text-align: left;
-     min-height: 16rem;
-     padding: 0.8rem;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
 }
-*/
+
+
+article {
+     border: 0.6rem dashed transparent;
+}
+
+ .my-name {
+     font-size: 1.8rem;
+     color: var(--accent-1);
+}
+
+.my-name__first {
+     font-weight: 900;
+
+}
+
+.my-name__last {
+     font-weight: 100;
+}
+
+
 
  article h2, article p, article ul {
      xmax-width: 90%;
@@ -47,7 +65,14 @@
 
 }
 
-
+.button__contact {
+     color: white;
+     background-color: var(--bc-1);
+     border: solid white 0.15rem;
+     border-radius: 0.85rem;
+     padding: 0.3rem;
+     font-size: 60%;
+}
 
 /*
 -----------PROJECTS
@@ -136,10 +161,6 @@
 ---------     testing testing
 */
 
-article {
-     border: 0.6rem dashed transparent;
-}
-
 
 /*
 --------------let's be     R E S P O N S I V E !
@@ -199,6 +220,7 @@ article {
      margin: 2rem;
 }
 
+<<<<<<< HEAD
  .my-name {
      font-family: "Gill Sans", sans-serif;
      color: var(--bc-2);
@@ -223,6 +245,8 @@ nav#test.my-name {
 .my-name__last {
      font-weight: 100;
 }
+=======
+>>>>>>> noNavbar
 
  img.address__image {
      display: block;
