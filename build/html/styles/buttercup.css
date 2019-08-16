@@ -30,9 +30,19 @@ body {
 
 
 article {
-     border: 0.6rem dashed transparent;
+     border: 0.2rem dashed transparent;
 }
 
+xh2 {
+     margin-left: 1.6rem;
+     margin-top:  2rem;
+}
+
+x.lotta-text {
+     padding: 2rem 11rem;
+     border: 0.2rem dashed transparent;
+
+}
 
 
 .my-name__first {
