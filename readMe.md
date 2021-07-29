@@ -4,5 +4,5 @@
 
 
 ## Features
-- Eventlistener for swappable content in More/Less of Experience section
+This old site is useful because it has Gulpfile set up and a nice Canyon de Chelly jumbotron on the landing page.
 
