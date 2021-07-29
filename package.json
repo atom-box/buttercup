@@ -10,7 +10,10 @@
   ],
   "author": "Evan Genest",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "glob-parent": ">=5.1.2",
+
+  },
   "devDependencies": {
     "autoprefixer": "^9.4.7",
     "gulp": "^4.0.0",
@@ -19,6 +22,7 @@
     "minimatch": "^3.0.4",
     "popper.js": "^1.14.7",
     "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.1.1"
+    "postcss-nested": "^4.1.1",
+    "y18n": ">=3.2.2",
   }
 }
