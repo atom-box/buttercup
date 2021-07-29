@@ -1,6 +1,6 @@
 # Evan Genest Web Developer Portfolio
-- [UnderConstruction nightly experimentation](https://atom-box.github.io/buttercup).  It is my in-development version. 
-- [Real LTS portfolio](http://littlefurnace.com)
+- [Click to see](https://atom-box.github.io/buttercup) 2019 Portfolio "Buttercup".  
+- [Current portfolio](http://littlefurnace.com)
 
 
 ## Features
